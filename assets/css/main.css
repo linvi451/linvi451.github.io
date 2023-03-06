@@ -1268,7 +1268,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 			#about{
-				height:1200px;
+				height:1100px;
 			}
 
 			/* Me ----- Profile-set*/
@@ -1321,6 +1321,7 @@ input, select, textarea {
 				padding-top: 20px;
 				width: 100%;
 				height:300px;
+				margin:auto 0;
 			}
 			.profile-box-skill>ul{
 				display: flex;
@@ -1330,7 +1331,7 @@ input, select, textarea {
 
 			}
 			.profile-box-skill>ul li{
-				width: 110px;
+				width: 140px;
 				height:50px;
 				margin: 5px;
 				background-color: #ddd;
