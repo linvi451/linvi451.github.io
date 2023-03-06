@@ -456,6 +456,9 @@ input, select, textarea {
 				}
 
 		@media screen and (max-width: 1680px) {
+			#about{
+				height:1200px;
+			}
 			.profile-box-text {
 				margin-left :60px;
 				margin-top :60px;
@@ -464,7 +467,24 @@ input, select, textarea {
 			.media-736{
 				display: none;
 			}
+			.profile-box-skill>ul{
+				display: flex;
+				flex-wrap: wrap;
+				align-items: center;
+				margin-top:20px;
 
+			}
+			.profile-box-skill>ul li{
+				width: 220px;
+				height:90px;
+				margin: 10px;
+				background-color: #ddd;
+				text-align: center;
+				line-height: 90px;
+				font-weight: 700;
+				color: #222;
+				border-radius: 10px;
+			}
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -709,6 +729,9 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 1280px) {
+			#about{
+				height:1200px;
+			}
 			.media-736{
 				display: none;
 			}
@@ -957,6 +980,10 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 980px) {
+			#about{
+				height:1200px;
+			}
+
 			/* Me ----- Profile-set*/
 			.profile-box{
 				height:1000px;
@@ -1268,12 +1295,11 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 			#about{
-				height:1100px;
+				height:1200px;
 			}
 
 			/* Me ----- Profile-set*/
 			.profile-box{
-				height:900px;
 				display: flex;
 				flex-wrap: wrap;
 				justify-content: flex-start
@@ -1318,12 +1344,13 @@ input, select, textarea {
 				font-family: 'Climate Crisis', cursive;
 			}
 			.profile-box-skill{
-				padding-top: 20px;
+				padding-top: 50px;
 				width: 100%;
-				height:300px;
-				margin:auto 0;
+				height:400px;
+				margin:auto;
 			}
 			.profile-box-skill>ul{
+				width:370px;
 				display: flex;
 				flex-wrap: wrap;
 				align-items: center;
@@ -1331,7 +1358,7 @@ input, select, textarea {
 
 			}
 			.profile-box-skill>ul li{
-				width: 140px;
+				width: 135px;
 				height:50px;
 				margin: 5px;
 				background-color: #ddd;
