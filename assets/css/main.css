@@ -959,7 +959,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 			/* Me ----- Profile-set*/
 			.profile-box{
-				height:900px;
+				height:1000px;
 				display: flex;
 				flex-wrap: wrap;
 				justify-content: flex-start
@@ -1267,10 +1267,13 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
+			#about{
+				height:1000px;
+			}
 
 			/* Me ----- Profile-set*/
 			.profile-box{
-				height:800px;
+				height:900px;
 				display: flex;
 				flex-wrap: wrap;
 				justify-content: flex-start
@@ -1327,7 +1330,7 @@ input, select, textarea {
 
 			}
 			.profile-box-skill>ul li{
-				width: 120px;
+				width: 110px;
 				height:50px;
 				margin: 5px;
 				background-color: #ddd;
